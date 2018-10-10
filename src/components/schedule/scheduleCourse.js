@@ -4,7 +4,7 @@ import * as actions from '../../actions';
 
 import action from'../action';
 
-class ScheuleCourse extends Component {
+class ScheduleCourse extends Component {
   render() {
     return (
       <div className="schedule-course">
@@ -15,4 +15,4 @@ class ScheuleCourse extends Component {
   }
 }
 
-export default connect(null, actions)(ScheduleCoure);
+export default connect(null, actions)(ScheduleCourse);

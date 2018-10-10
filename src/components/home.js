@@ -6,7 +6,7 @@ import Schedule from './schedule/schedule';
 class Home extends Component {
   render() {
     return (
-      <div className="home">
+      <div className="haome">
         <Library/>
         <Schedule/>
       </div>
